@@ -18,5 +18,5 @@ EMD的分解过程是简单直观的：
 4）判断该中间信号是否满足IMF的两个条件，如果满足，该信号就是一个IMF分量；如果不是，以该信号为基础，重新做1）~4）的分析。IMF分量的获取通常需要若干次的迭代。
 
 
-    
+EMD另一个包PyEMD安装方式，包的官方介绍：https://pypi.org/project/EMD-signal/0.2.7/
 因为存在pyemd包计算词之间的距离，而这个包名字只是大小写不同，pip安装时不区分大小写，因此安装PyEMD时应该使用指令pip install EMD-signal。如果之前安装了pyemd,则需要删除pyemd，指令pip uninstall pyemd.
